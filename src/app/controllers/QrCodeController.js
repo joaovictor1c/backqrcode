@@ -3,6 +3,7 @@ import qrcode from 'qrcode';
 import QrCodeModel from '../models/QrCode'
 import User from '../models/User'
 
+
 class QrCodeController {
 
   async create (req, res){
